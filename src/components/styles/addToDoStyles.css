@@ -1,0 +1,36 @@
+.AddToDoContainer {
+  width: 85%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1, label {
+  color: white;
+  font-weight: 500;
+}
+
+.formActivities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 90%;
+  height: 100px;
+}
+
+.activityInput {
+  width: 250px;
+  height: 25px;
+  margin: 0 10px;
+  padding-left: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.btnSubmit {
+  width: 80px;
+  height: 30px;
+  border-radius: 40px;
+  border: none;
+}
