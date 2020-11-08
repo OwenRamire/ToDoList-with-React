@@ -1,0 +1,17 @@
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.image-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.titleHeader {
+    color: white;
+    font-weight: normal;
+}
