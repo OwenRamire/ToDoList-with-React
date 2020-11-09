@@ -15,17 +15,9 @@ h1, label {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 90%;
   height: 100px;
-}
-
-.activityInput {
-  width: 250px;
-  height: 25px;
-  margin: 0 10px;
-  padding-left: 15px;
-  border-radius: 20px;
-  border: none;
 }
 
 .btnSubmit {
