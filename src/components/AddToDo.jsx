@@ -14,10 +14,6 @@ class AddToDo extends Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  componentDidUpdate() {
-    this.showActivities();
-  }
-
   userType = (e) => {
     this.setState({ activity: e.target.value });
   };
